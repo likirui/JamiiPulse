@@ -1,0 +1,26 @@
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .sidebarFriendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  /* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .sidebarFriend {
+      margin-bottom: 10px; 
+  }
+
+  .sidebarFriendImg {
+      width: 24px; 
+      height: 24px;
+      margin-right: 8px; 
+  }
+}
