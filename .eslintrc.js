@@ -4,4 +4,7 @@ module.exports = {
     rules: {
       'no-unused-vars': 'warn',
     },
+    globals: {
+      setComments: 'writable',
+    },
   };
