@@ -6,7 +6,6 @@ function MyPost({ post }) {
   const [like, setLike] = useState(0);
   const [isLiked, setIsLiked] = useState(false);
   const [userData, setUserData] = useState(null);
-  const [comments, setComments] = useState([]);
 
   useEffect(() => {
     // Fetch user data based on the post's userId from the API

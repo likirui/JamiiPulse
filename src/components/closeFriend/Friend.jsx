@@ -1,5 +1,4 @@
 import "./friend.css";
-import React, { useState, useEffect } from 'react';
 
 export default function CloseFriend({user}) {
   return (

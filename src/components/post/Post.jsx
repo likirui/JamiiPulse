@@ -1,5 +1,4 @@
 import './post.css'
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 import React, { useState, useEffect } from 'react';
 
 const Post = ({ post }) => {
@@ -44,7 +43,7 @@ const Post = ({ post }) => {
     fetchUser();
   }, [post?.userId]);
 
-  const userProfilePicture = user?.profilePicture;
+
 
   const likeHandler = () => {
     setLike((prevLike) => (isLiked ? prevLike - 1 : prevLike + 1));
